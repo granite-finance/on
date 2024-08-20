@@ -38,7 +38,7 @@ logOutBtn.addEventListener('click', ()=> {
         .then(() => {
             // Sign-out successful.
             console.log('User signed out');
-            window.location.href = "/login.html";
+            window.location.href = "https://granite-finance.github.io/on/login.html";
         })
         .catch((error) => {
             // An error happened.
