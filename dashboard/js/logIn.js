@@ -18,7 +18,7 @@ loginForm.addEventListener('submit', (e)=> {
         if (user) {
             loginForm.disabled = true
             setTimeout(function(){
-                window.location.replace("https://granite-finance.github.io/on/dashboard/dashboard.html");
+                window.location.replace("https://granite-finance.github.io/on/dashboard.html");
             }, 1000)
         } else {
             const popup = document.getElementById('popup-alert');
