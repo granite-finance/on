@@ -18,7 +18,7 @@ loginForm.addEventListener('submit', (e)=> {
         if (user) {
             loginForm.disabled = true
             setTimeout(function(){
-                window.location.replace("/dashboard/dashboard.html");
+                window.location.replace("https://granite-finance.github.io/on/dashboard/dashboard.html");
             }, 1000)
         } else {
             const popup = document.getElementById('popup-alert');
@@ -29,7 +29,7 @@ loginForm.addEventListener('submit', (e)=> {
                 popup.style.display = 'none';
             }, 10000); // 10000 milliseconds = 10 seconds
         }
-        // window.location.replace("/dashboard/user/dashboard.html")
+        // window.location.replace("https://granite-finance.github.io/on/dashboard/user/dashboard.html")
     })
     .catch(error => {
         const parseJson = JSON.parse(error.message)
